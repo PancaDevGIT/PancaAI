@@ -18,8 +18,8 @@ body {
 }
 
 body {
-  background-color: #343541;
-  color: #ffff;
+  background: linear-gradient(to bottom, rgba(52, 53, 65, 0.4) 0%, rgba(52, 53, 65, 0.4) 90%, #4b0082 90%, #9400d3 100%);
+  color: #fff;
   height: 100vh;
   width: 100vw;
 }

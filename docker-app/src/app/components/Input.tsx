@@ -202,7 +202,7 @@ export default function Input({
             e.currentTarget.style.borderColor = "white";
           }}
         >
-          Stop Responding
+          Detener respuesta
         </button>
       )}
     </>

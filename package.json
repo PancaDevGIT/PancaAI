@@ -1,5 +1,5 @@
 {
-  "name": "PancaAI",
+  "name": "pancaai",
   "productName": "PancaAI",
   "version": "1.0.0",
   "description": "PancaAI BETA",
@@ -18,13 +18,10 @@
     "docker": "cd docker-app && docker build -t freedomgpt/freedomgpt ."
   },
   "keywords": [],
-  "author": {
-    "name": "PancaDev",
-    "email": "contacto@pancadev.com"
-  },
+  "author": "PancaDev <contacto@pancadev.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PancaDevGIT/PancaAI"
+    "url": "git+https://github.com/PancaDevGIT/PancaAI.git"
   },
   "license": "MIT",
   "devDependencies": {
@@ -56,6 +53,7 @@
     "eslint-plugin-import": "^2.25.0",
     "fork-ts-checker-webpack-plugin": "^7.2.13",
     "node-loader": "^2.0.0",
+    "pkg": "^5.8.1",
     "style-loader": "^3.0.0",
     "ts-loader": "^9.2.2",
     "ts-node": "^10.0.0",
@@ -74,5 +72,9 @@
     "socket.io-client": "^4.6.1",
     "update-electron-app": "^2.0.1",
     "uuid": "^9.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/PancaDevGIT/PancaAI/issues"
+  },
+  "homepage": "https://github.com/PancaDevGIT/PancaAI#readme"
 }
